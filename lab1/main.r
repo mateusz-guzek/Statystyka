@@ -118,7 +118,7 @@ plot(data.frame(x = x, y = y))
 plot(cbind(x,y))
 
 plot(rbind(x,y))
-# nie dziala, trzeb transponowac rbind
+# nie dziala, trzeba transponowac rbind
 
 plot(t(rbind(x,y)))
 
